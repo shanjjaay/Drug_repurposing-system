@@ -1,0 +1,36 @@
+[
+  {
+    "drug_name": "Sitagliptin",
+    "chembl_id": "CHEMBL1422",
+    "pubchem_cid": "4369359",
+    "target_gene": "DPP4",
+    "target_uniprot": "P27487",
+    "smiles": "FC1=CC(CC(N)CC(=O)N2CC3=NN=C(N3CC2)C(F)(F)F)=C(F)C(F)=C1",
+    "mechanism_of_action": "Competitive DPP4 inhibitor protecting incretin hormones GLP-1 and GIP.",
+    "bioactivity_type": "IC50",
+    "bioactivity_value_nm": 18.0,
+    "clinical_phase": "FDA Approved",
+    "mw": 407.31,
+    "logp": 1.70,
+    "hbd": 2,
+    "hba": 6,
+    "literature_citations": 2100
+  },
+  {
+    "drug_name": "Pioglitazone",
+    "chembl_id": "CHEMBL411",
+    "pubchem_cid": "4829",
+    "target_gene": "PPARG",
+    "target_uniprot": "P37231",
+    "smiles": "CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3",
+    "mechanism_of_action": "Thiazolidinedione agonist of nuclear receptor PPAR-gamma enhancing peripheral insulin sensitivity.",
+    "bioactivity_type": "EC50",
+    "bioactivity_value_nm": 500.0,
+    "clinical_phase": "FDA Approved",
+    "mw": 356.44,
+    "logp": 3.62,
+    "hbd": 1,
+    "hba": 4,
+    "literature_citations": 1850
+  }
+]

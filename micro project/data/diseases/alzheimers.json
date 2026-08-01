@@ -1,0 +1,71 @@
+{
+  "disease_id": "EFO_0000249",
+  "disease_name": "Alzheimer's Disease",
+  "description": "A progressive neurodegenerative disorder characterized by memory loss, cognitive decline, accumulation of amyloid-beta plaques, and neurofibrillary tangles.",
+  "associations": [
+    {
+      "gene_symbol": "APP",
+      "gene_name": "Amyloid Beta Precursor Protein",
+      "uniprot_id": "P05067",
+      "association_score": 0.95,
+      "disease_role": "Parent protein of Amyloid-beta peptides; mutations cause autosomal dominant familial Alzheimer's disease.",
+      "evidence_count": 1420
+    },
+    {
+      "gene_symbol": "MAPT",
+      "gene_name": "Microtubule Associated Protein Tau",
+      "uniprot_id": "P10636",
+      "association_score": 0.92,
+      "disease_role": "Hyperphosphorylated tau aggregates into neurofibrillary tangles causing neuronal destabilization.",
+      "evidence_count": 1150
+    },
+    {
+      "gene_symbol": "PSEN1",
+      "gene_name": "Presenilin 1",
+      "uniprot_id": "P49768",
+      "association_score": 0.91,
+      "disease_role": "Catalytic core of gamma-secretase complex responsible for cleavage of APP into amyloid-beta fragments.",
+      "evidence_count": 980
+    },
+    {
+      "gene_symbol": "APOE",
+      "gene_name": "Apolipoprotein E",
+      "uniprot_id": "P02649",
+      "association_score": 0.94,
+      "disease_role": "Major genetic risk factor (APOE epsilon4 allele); involved in lipid metabolism and amyloid-beta clearance.",
+      "evidence_count": 1340
+    },
+    {
+      "gene_symbol": "BACE1",
+      "gene_name": "Beta-Secretase 1",
+      "uniprot_id": "P56817",
+      "association_score": 0.89,
+      "disease_role": "Transmembrane aspartyl protease that executes rate-limiting beta-cleavage of APP.",
+      "evidence_count": 870
+    },
+    {
+      "gene_symbol": "GSK3B",
+      "gene_name": "Glycogen Synthase Kinase 3 Beta",
+      "uniprot_id": "P49841",
+      "association_score": 0.84,
+      "disease_role": "Pro-inflammatory serine/threonine kinase that hyperphosphorylates tau protein.",
+      "evidence_count": 620
+    },
+    {
+      "gene_symbol": "PSEN2",
+      "gene_name": "Presenilin 2",
+      "uniprot_id": "P49810",
+      "association_score": 0.86,
+      "disease_role": "Component of the gamma-secretase complex involved in intramembrane proteolysis of APP.",
+      "evidence_count": 540
+    },
+    {
+      "gene_symbol": "ADAM10",
+      "gene_name": "ADAM Metallopeptidase Domain 10",
+      "uniprot_id": "O14672",
+      "association_score": 0.81,
+      "disease_role": "Main alpha-secretase responsible for non-amyloidogenic processing of APP, neuroprotective.",
+      "evidence_count": 480
+    }
+  ]
+}

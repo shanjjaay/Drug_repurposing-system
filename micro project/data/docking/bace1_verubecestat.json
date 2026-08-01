@@ -1,0 +1,20 @@
+{
+  "target_gene": "BACE1",
+  "target_uniprot": "P56817",
+  "drug_name": "Verubecestat (MK-8931)",
+  "chembl_id": "CHEMBL3301604",
+  "pocket_name": "Catalytic Aspartyl Dyad Pocket",
+  "grid_center": {"x": 19.5, "y": 25.2, "z": 12.8},
+  "grid_size": {"x": 20.0, "y": 20.0, "z": 20.0},
+  "binding_affinity_kcal_mol": -9.8,
+  "docking_score_confidence": 95.0,
+  "engine": "AutoDock Vina v1.2.5",
+  "hydrogen_bonds": [
+    {"receptor_residue": "ASP32", "ligand_atom": "N1 (Amino-iminothiazine)", "distance_angstrom": 2.75},
+    {"receptor_residue": "ASP228", "ligand_atom": "N2 (Exocyclic Amine)", "distance_angstrom": 2.82},
+    {"receptor_residue": "THR34", "ligand_atom": "O1 (Carbonyl)", "distance_angstrom": 2.91}
+  ],
+  "hydrophobic_contacts": ["TYR71", "PHE108", "TRP115", "VAL68"],
+  "pose_file": "bace1_verubecestat_pose.pdb",
+  "timestamp": "2026-08-01T12:00:00Z"
+}

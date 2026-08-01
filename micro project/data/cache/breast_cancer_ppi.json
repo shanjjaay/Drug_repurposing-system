@@ -1,0 +1,21 @@
+{
+  "disease": "Breast Cancer",
+  "source": "STRING DB v11.5",
+  "organism": 9606,
+  "nodes": [
+    {"id": "P38398", "symbol": "BRCA1", "name": "BRCA1 DNA Repair Associated"},
+    {"id": "P51587", "symbol": "BRCA2", "name": "BRCA2 DNA Repair Associated"},
+    {"id": "P03372", "symbol": "ESR1", "name": "Estrogen Receptor 1"},
+    {"id": "P04626", "symbol": "ERBB2", "name": "HER2 Receptor Tyrosine Kinase"},
+    {"id": "P04637", "symbol": "TP53", "name": "Tumor Protein P53"},
+    {"id": "P42336", "symbol": "PIK3CA", "name": "PI3K Catalytic Subunit Alpha"}
+  ],
+  "edges": [
+    {"source": "BRCA1", "target": "BRCA2", "combined_score": 0.999},
+    {"source": "BRCA1", "target": "TP53", "combined_score": 0.998},
+    {"source": "ESR1", "target": "ERBB2", "combined_score": 0.965},
+    {"source": "ERBB2", "target": "PIK3CA", "combined_score": 0.985},
+    {"source": "TP53", "target": "ESR1", "combined_score": 0.920},
+    {"source": "PIK3CA", "target": "TP53", "combined_score": 0.890}
+  ]
+}

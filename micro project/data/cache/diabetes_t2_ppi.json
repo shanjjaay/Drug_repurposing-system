@@ -1,0 +1,20 @@
+{
+  "disease": "Type 2 Diabetes",
+  "source": "STRING DB v11.5",
+  "organism": 9606,
+  "nodes": [
+    {"id": "P01308", "symbol": "INS", "name": "Insulin"},
+    {"id": "P06213", "symbol": "INSR", "name": "Insulin Receptor"},
+    {"id": "P37231", "symbol": "PPARG", "name": "Peroxisome Proliferator Activated Receptor Gamma"},
+    {"id": "P27487", "symbol": "DPP4", "name": "Dipeptidyl Peptidase 4"},
+    {"id": "Q9NQB0", "symbol": "TCF7L2", "name": "Transcription Factor 7 Like 2"},
+    {"id": "Q09428", "symbol": "KCNJ11", "name": "Potassium Channel Subfamily J Member 11"}
+  ],
+  "edges": [
+    {"source": "INS", "target": "INSR", "combined_score": 0.999},
+    {"source": "INSR", "target": "PPARG", "combined_score": 0.945},
+    {"source": "INS", "target": "DPP4", "combined_score": 0.890},
+    {"source": "PPARG", "target": "TCF7L2", "combined_score": 0.860},
+    {"source": "INSR", "target": "KCNJ11", "combined_score": 0.825}
+  ]
+}

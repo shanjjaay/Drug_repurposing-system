@@ -1,0 +1,55 @@
+{
+  "disease_id": "EFO_0000305",
+  "disease_name": "Breast Cancer",
+  "description": "A complex heterogeneous malignancy originating in breast tissue, characterized by abnormal cell proliferation.",
+  "associations": [
+    {
+      "gene_symbol": "BRCA1",
+      "gene_name": "BRCA1 DNA Repair Associated",
+      "uniprot_id": "P38398",
+      "association_score": 0.98,
+      "disease_role": "Tumor suppressor gene; germline mutations drastically increase hereditary breast and ovarian cancer risk.",
+      "evidence_count": 3200
+    },
+    {
+      "gene_symbol": "ESR1",
+      "gene_name": "Estrogen Receptor 1",
+      "uniprot_id": "P03372",
+      "association_score": 0.95,
+      "disease_role": "Nuclear hormone receptor driving ER-positive breast cancer cell proliferation.",
+      "evidence_count": 2800
+    },
+    {
+      "gene_symbol": "ERBB2",
+      "gene_name": "erb-b2 Receptor Tyrosine Kinase 2 (HER2)",
+      "uniprot_id": "P04626",
+      "association_score": 0.94,
+      "disease_role": "Proto-oncogene receptor amplified in HER2-positive aggressive breast tumors.",
+      "evidence_count": 2500
+    },
+    {
+      "gene_symbol": "TP53",
+      "gene_name": "Tumor Protein P53",
+      "uniprot_id": "P04637",
+      "association_score": 0.96,
+      "disease_role": "Master guardian of the genome; mutated in >50% of triple-negative breast cancers.",
+      "evidence_count": 3100
+    },
+    {
+      "gene_symbol": "PIK3CA",
+      "gene_name": "Phosphatidylinositol-4,5-Bisphosphate 3-Kinase Catalytic Subunit Alpha",
+      "uniprot_id": "P42336",
+      "association_score": 0.91,
+      "disease_role": "Catalytic subunit of PI3K hyperactivated in hormone-receptor positive tumors.",
+      "evidence_count": 1750
+    },
+    {
+      "gene_symbol": "BRCA2",
+      "gene_name": "BRCA2 DNA Repair Associated",
+      "uniprot_id": "P51587",
+      "association_score": 0.97,
+      "disease_role": "DNA homologous recombination repair protein mutated in familial breast cancer.",
+      "evidence_count": 2900
+    }
+  ]
+}

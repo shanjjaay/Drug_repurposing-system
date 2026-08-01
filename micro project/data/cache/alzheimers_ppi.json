@@ -1,0 +1,29 @@
+{
+  "disease": "Alzheimer's Disease",
+  "source": "STRING DB v11.5",
+  "organism": 9606,
+  "nodes": [
+    {"id": "P05067", "symbol": "APP", "name": "Amyloid Beta Precursor Protein"},
+    {"id": "P10636", "symbol": "MAPT", "name": "Microtubule Associated Protein Tau"},
+    {"id": "P49768", "symbol": "PSEN1", "name": "Presenilin 1"},
+    {"id": "P02649", "symbol": "APOE", "name": "Apolipoprotein E"},
+    {"id": "P56817", "symbol": "BACE1", "name": "Beta-Secretase 1"},
+    {"id": "P49841", "symbol": "GSK3B", "name": "Glycogen Synthase Kinase 3 Beta"},
+    {"id": "P49810", "symbol": "PSEN2", "name": "Presenilin 2"},
+    {"id": "O14672", "symbol": "ADAM10", "name": "ADAM Metallopeptidase Domain 10"}
+  ],
+  "edges": [
+    {"source": "APP", "target": "BACE1", "combined_score": 0.999, "experimental_score": 0.985},
+    {"source": "APP", "target": "PSEN1", "combined_score": 0.998, "experimental_score": 0.975},
+    {"source": "APP", "target": "PSEN2", "combined_score": 0.992, "experimental_score": 0.950},
+    {"source": "APP", "target": "MAPT", "combined_score": 0.985, "experimental_score": 0.920},
+    {"source": "APP", "target": "APOE", "combined_score": 0.978, "experimental_score": 0.910},
+    {"source": "APP", "target": "ADAM10", "combined_score": 0.995, "experimental_score": 0.970},
+    {"source": "MAPT", "target": "GSK3B", "combined_score": 0.997, "experimental_score": 0.980},
+    {"source": "PSEN1", "target": "PSEN2", "combined_score": 0.999, "experimental_score": 0.990},
+    {"source": "PSEN1", "target": "BACE1", "combined_score": 0.945, "experimental_score": 0.880},
+    {"source": "GSK3B", "target": "PSEN1", "combined_score": 0.910, "experimental_score": 0.820},
+    {"source": "APOE", "target": "MAPT", "combined_score": 0.880, "experimental_score": 0.790},
+    {"source": "BACE1", "target": "ADAM10", "combined_score": 0.865, "experimental_score": 0.750}
+  ]
+}

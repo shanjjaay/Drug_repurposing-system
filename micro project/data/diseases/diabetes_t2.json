@@ -1,0 +1,55 @@
+{
+  "disease_id": "EFO_0001360",
+  "disease_name": "Type 2 Diabetes",
+  "description": "A metabolic disorder characterized by high blood sugar, insulin resistance, and relative lack of insulin.",
+  "associations": [
+    {
+      "gene_symbol": "INS",
+      "gene_name": "Insulin",
+      "uniprot_id": "P01308",
+      "association_score": 0.96,
+      "disease_role": "Primary hormone regulating glucose homeostasis.",
+      "evidence_count": 1890
+    },
+    {
+      "gene_symbol": "INSR",
+      "gene_name": "Insulin Receptor",
+      "uniprot_id": "P06213",
+      "association_score": 0.93,
+      "disease_role": "Receptor tyrosine kinase mediating insulin signal transduction; impaired signaling causes insulin resistance.",
+      "evidence_count": 1420
+    },
+    {
+      "gene_symbol": "PPARG",
+      "gene_name": "Peroxisome Proliferator Activated Receptor Gamma",
+      "uniprot_id": "P37231",
+      "association_score": 0.91,
+      "disease_role": "Nuclear receptor controlling adipocyte differentiation and insulin sensitivity.",
+      "evidence_count": 1250
+    },
+    {
+      "gene_symbol": "DPP4",
+      "gene_name": "Dipeptidyl Peptidase 4",
+      "uniprot_id": "P27487",
+      "association_score": 0.88,
+      "disease_role": "Cell surface peptidase that degrades incretin hormones (GLP-1); primary drug target.",
+      "evidence_count": 980
+    },
+    {
+      "gene_symbol": "TCF7L2",
+      "gene_name": "Transcription Factor 7 Like 2",
+      "uniprot_id": "Q9NQB0",
+      "association_score": 0.94,
+      "disease_role": "Strongest genetic risk locus associated with impaired insulin secretion.",
+      "evidence_count": 1650
+    },
+    {
+      "gene_symbol": "KCNJ11",
+      "gene_name": "Potassium Inwardly Rectifying Channel Subfamily J Member 11",
+      "uniprot_id": "Q09428",
+      "association_score": 0.85,
+      "disease_role": "Subunit of pancreatic ATP-sensitive potassium channel controlling glucose-stimulated insulin release.",
+      "evidence_count": 780
+    }
+  ]
+}

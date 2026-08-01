@@ -1,0 +1,18 @@
+# Core Data & Network Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+networkx>=3.0
+requests>=2.28.0
+
+# Bioinformatics & Molecular Processing
+biopython>=1.81
+rdkit>=2023.3.1
+
+# Interactive Dashboard & Visualization
+streamlit>=1.25.0
+plotly>=5.15.0
+pyvis>=0.3.2
+st-py3dmol>=0.0.1
+
+# Testing
+pytest>=7.4.0

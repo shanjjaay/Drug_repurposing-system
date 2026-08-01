@@ -1,0 +1,53 @@
+[
+  {
+    "drug_name": "Tamoxifen",
+    "chembl_id": "CHEMBL83",
+    "pubchem_cid": "2733526",
+    "target_gene": "ESR1",
+    "target_uniprot": "P03372",
+    "smiles": "CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3",
+    "mechanism_of_action": "Selective Estrogen Receptor Modulator (SERM) antagonizing estrogen action in mammary tissue.",
+    "bioactivity_type": "Ki",
+    "bioactivity_value_nm": 15.0,
+    "clinical_phase": "FDA Approved",
+    "mw": 371.51,
+    "logp": 6.30,
+    "hbd": 0,
+    "hba": 2,
+    "literature_citations": 4200
+  },
+  {
+    "drug_name": "Lapatinib",
+    "chembl_id": "CHEMBL554",
+    "pubchem_cid": "208908",
+    "target_gene": "ERBB2",
+    "target_uniprot": "P04626",
+    "smiles": "CS(=O)(=O)CCNCC1=CC=C(O1)C2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl",
+    "mechanism_of_action": "Dual receptor tyrosine kinase inhibitor of EGFR and HER2 (ERBB2).",
+    "bioactivity_type": "IC50",
+    "bioactivity_value_nm": 9.2,
+    "clinical_phase": "FDA Approved",
+    "mw": 581.06,
+    "logp": 5.40,
+    "hbd": 2,
+    "hba": 7,
+    "literature_citations": 1950
+  },
+  {
+    "drug_name": "Alpelisib (BYL719)",
+    "chembl_id": "CHEMBL3301610",
+    "pubchem_cid": "56649450",
+    "target_gene": "PIK3CA",
+    "target_uniprot": "P42336",
+    "smiles": "CC1=NC(=CS1)C2=NC(=NC=C2)NC(=O)C3CCN(CC3)C(=O)C(C)C",
+    "mechanism_of_action": "Alpha-specific PI3K kinase inhibitor targeting PIK3CA mutant breast cancer cells.",
+    "bioactivity_type": "IC50",
+    "bioactivity_value_nm": 4.6,
+    "clinical_phase": "FDA Approved",
+    "mw": 441.55,
+    "logp": 2.90,
+    "hbd": 1,
+    "hba": 6,
+    "literature_citations": 640
+  }
+]
